@@ -17,20 +17,17 @@ openjdk version "17.x.x"
 
 🟦 **Setup & Installation**
 1. Create Virtual Environment
-```python3 -m venv .venv```
+```uv venv --python=3.10```
 ```source .venv/bin/activate```
 
 2. Install Dependencies
-```pip install --upgrade pip```
-```pip install -r requirements.txt```
+```uv pip install -r requirements.txt```
 
 🗝 **Environment Variables (Required)**
 
 Create .env in the project root:
 
 ```OPENAI_API_KEY=your_api_key_here``` 
-
-```OPENAI_MODEL=gpt-4.1```
 
 **Run LanguageTool with Java (Manual)**
 ```wget https://languagetool.org/download/LanguageTool-stable.zip```
